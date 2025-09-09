@@ -31,3 +31,10 @@ Desarrollado por Jhosep Huanaco para el Primer Examen Parcial.
 - Se validó la navegación únicamente con teclado (Tab + Enter).
 - Se agregó estilo CSS para foco visible.
 - Uso prudente de atributos `aria-` solo donde aporta (ej. `aria-labelledby`).
+## SEO
+
+- Título único y descriptivo: "MANACO | Calzado que impulsa tu paso".
+- Meta descripción optimizada (150-160 caracteres).
+- Etiquetas Open Graph: título, descripción, imagen.
+- Encabezados jerárquicos H1 (logo), H2 (secciones), H3 (productos).
+- Uso de `alt` en imágenes mejora SEO en buscadores.
