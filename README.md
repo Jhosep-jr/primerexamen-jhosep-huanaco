@@ -24,3 +24,10 @@ Este proyecto corresponde al **Primer Examen Parcial de Tecnologías de Internet
 - GitHub Pages
 
 Desarrollado por Jhosep Huanaco para el Primer Examen Parcial.
+## Accesibilidad (a11y)
+
+- Añadí un enlace "Saltar al contenido" para usuarios con lector de pantalla/teclado.
+- Todas las imágenes tienen `alt` descriptivos.
+- Se validó la navegación únicamente con teclado (Tab + Enter).
+- Se agregó estilo CSS para foco visible.
+- Uso prudente de atributos `aria-` solo donde aporta (ej. `aria-labelledby`).
