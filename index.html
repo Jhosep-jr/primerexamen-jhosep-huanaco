@@ -1,65 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MANACO | Calzado que impulsa tu paso</title>
-  <meta name="description" content="MANACO ofrece calzado cómodo y moderno que impulsa tu paso. Descubre nuestros productos y compra fácilmente en línea.">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="MANACO | Calzado que impulsa tu paso">
-  <meta property="og:description" content="Calzado cómodo y moderno de MANACO. Explora nuestra colección.">
-  <meta property="og:image" content="https://via.placeholder.com/600x400">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANACO - Calzado que impulsa tu paso</title>
+    <meta name="description" content="MANACO ofrece calzado cómodo y de calidad. Encuentra los mejores zapatos para hombre, mujer y niño. Compra online con envío gratis.">
+    <meta property="og:title" content="MANACO - Calzado que impulsa tu paso">
+    <meta property="og:description" content="Descubre nuestra colección de calzado de calidad para toda la familia. Envío gratis en compras superiores a $50.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-    <h1>MANACO</h1>
+<body>
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+    
+    <header>
+        <div class="logo">MANACO</div>
+        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    
     <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
+        <ul class="nav-list">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
     </nav>
-  </header>
+    
+    <main id="main-content">
+        <section class="banner" aria-labelledby="banner-heading">
+            <h1 id="banner-heading">Calzado que impulsa tu paso</h1>
+        </section>
+        
+        <section aria-labelledby="products-heading">
+            <h2 id="products-heading" class="products-title">Productos</h2>
+            
+            <div class="products-grid">
+                <article class="product-card">
+                    <div class="product-image" aria-hidden="true">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE5DagmWzgYw8l7dsvIQuLypnYMjvcXsh1ChEsE98IEpnzerq9g6C9IFE13CsCaxI6fFk&usqp=CAU" alt="Zapato modelo Producto 1">
+                    </div>
+                    <h3 class="product-name">Producto 1</h3>
+                    <p class="product-price">$00.00</p>
+                    <button class="buy-btn">Comprar</button>
+                </article>
+                
+                <article class="product-card">
+                    <div class="product-image" aria-hidden="true">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6DwhvqAXX7bVGKmd6NV6_oODI7NvxKqFTJ-a-VULMx1yYq4JLY4Oh81HgyomyUkPfsN4&usqp=CAU">
+                    </div>
+                    <h3 class="product-name">Producto 2</h3>
+                    <p class="product-price">$00.00</p>
+                    <button class="buy-btn">Comprar</button>
+                </article>
+                
+                <article class="product-card">
+                    <div class="product-image" aria-hidden="true">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQ-lHnAZjWbXa1T0oFYrnd-XE9JinKQ7orWRVP_I-VaP4SjeD42rbSMQNehliRluYYcY&usqp=CAU" alt="Zapato modelo Producto 3">
 
-  <main id="contenido">
-    <section aria-labelledby="slogan">
-      <h2 id="slogan">Calzado que impulsa tu paso</h2>
-    </section>
-
-    <section aria-labelledby="productos">
-      <h2 id="productos">Productos</h2>
-      <ul>
-        <li>
-          <article>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE5DagmWzgYw8l7dsvIQuLypnYMjvcXsh1ChEsE98IEpnzerq9g6C9IFE13CsCaxI6fFk&usqp=CAU" alt="Zapato modelo Producto 1">
-            <h3>Producto 1</h3>
-            <p>$00.00</p>
-            <button>Comprar</button>
-          </article>
-        </li>
-        <li>
-          <article>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6DwhvqAXX7bVGKmd6NV6_oODI7NvxKqFTJ-a-VULMx1yYq4JLY4Oh81HgyomyUkPfsN4&usqp=CAU">
-            <h3>Producto 2</h3>
-            <p>$00.00</p>
-            <button>Comprar</button>
-          </article>
-        </li>
-        <li>
-          <article>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQ-lHnAZjWbXa1T0oFYrnd-XE9JinKQ7orWRVP_I-VaP4SjeD42rbSMQNehliRluYYcY&usqp=CAU" alt="Zapato modelo Producto 3">
-            <h3>Producto 3</h3>
-            <p>$00.00</p>
-            <button>Comprar</button>
-          </article>
-        </li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>Copyright 2025 MANACO</p>
-  </footer>
+                    </div>
+                    <h3 class="product-name">Producto 3</h3>
+                    <p class="product-price">$00.00</p>
+                    <button class="buy-btn">Comprar</button>
+                </article>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p class="copyright">Copyright 2025 MANACO</p>
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
+
+<script>
+    // Script para el menú hamburguesa
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navList = document.querySelector('.nav-list');
+    
+    menuToggle.addEventListener('click', function() {
+        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !isExpanded);
+        navList.classList.toggle('active');
+    });
+    
+    // Cerrar menú al hacer clic en un enlace (útil en móviles)
+    const navLinks = document.querySelectorAll('.nav-list a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            menuToggle.setAttribute('aria-expanded', 'false');
+            navList.classList.remove('active');
+        });
+    });
+    
+    // Manejar el foco para accesibilidad
+    const focusableElements = document.querySelectorAll('button, a, input, select, textarea, [tabindex]:not([tabindex="-1"])');
+    const firstFocusableElement = focusableElements[0];
+    const lastFocusableElement = focusableElements[focusableElements.length - 1];
+    
+    // Atrapa el foco dentro del menú cuando está abierto (para navegación por teclado)
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Tab' && navList.classList.contains('active')) {
+            if (e.shiftKey) {
+                if (document.activeElement === firstFocusableElement) {
+                    e.preventDefault();
+                    lastFocusableElement.focus();
+                }
+            } else {
+                if (document.activeElement === lastFocusableElement) {
+                    e.preventDefault();
+                    firstFocusableElement.focus();
+                }
+            }
+        }
+    });
+});
+</script>
